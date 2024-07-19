@@ -1,4 +1,4 @@
-# Wild Oasis Website
+# The-Wild-Oasis-Website
 
 ## Overview
 It is a website that aims to provide a comfortable and easy experience for hotel visitors. The site allows visitors to view available cabins, create reservations, modify existing reservations, or cancel reservations.
