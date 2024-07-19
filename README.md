@@ -1,17 +1,39 @@
 # Wild Oasis Website
 
-## It is a website that aims to provide a comfortable and easy experience for hotel visitors. The site allows visitors to view available cabins, create reservations, modify existing reservations, or cancel reservations.
+## Overview
+It is a website that aims to provide a comfortable and easy experience for hotel visitors. The site allows visitors to view available cabins, create reservations, modify existing reservations, or cancel reservations.
 
-### Used a few technologies like Tailwind CSS for styling,  heroicons  , react-day-picker, date-fns libraries, and supabase for building the Back End
+### Technologies Used
+- **Tailwind CSS** for styling
+- **Heroicons** for icons
+- **react-day-picker** and **date-fns** libraries for date handling
+- **Supabase** for building the Back End
 
-### The user can create a single reservation, specify the period, or even cancel the reservation if he wants
+### Features
+- Users can create a single reservation, specify the period, or cancel the reservation if needed.
 
-### To run the project 
-```
-npm run dev
-
-```
-### Versions in the application 
+### To Install and Run the Project
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd project-directory
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+4. Run the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+Versions in the Application
 ```
 ├── @heroicons/react@2.1.3
 ├── @supabase/supabase-js@2.44.2
@@ -32,37 +54,46 @@ npm run dev
 └── tailwindcss@3.4.3
 
 ```
-#### To install libraries 
+### To Install Libraries
 ##### date-fns
 ```
 npm install date-fns --save
 # or
 yarn add date-fns
-```
-##### Next Autj
-```
-npm install auth@beta
-# or
-yarn add auth@beta
 
 ```
-##### react-day-picker
+##### Next Auth
+``` 
+npm install next-auth@beta
+# or
+yarn add next-auth@beta
 ```
+##### react-day-picker
+``` 
+
 npm install react-day-picker date-fns
 # or
-yarn add react-day-picker date-fns 
+yarn add react-day-picker date-fns
+
 ```
-#### Supa-base
+##### Supabase
+
 ```
 npm install @supabase/supabase-js
 # or
-yarm add @supabase/supabase-js
+yarn add @supabase/supabase-js
+
 
 ```
-### Snippets :
-<div >
-<img src="https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88" />
-<img src="https://github.com/user-attachments/assets/dd77182a-2cd7-44d0-abf7-9e97e4591e4d"  height=300  width=500/>
-<img src="https://github.com/user-attachments/assets/c710736a-98db-4014-bb9d-d9575c01b0c9"  height=300  width=500/>
+#### Snippets
+
+<div>
+  <img src="https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88" />
+  <img src="https://github.com/user-attachments/assets/dd77182a-2cd7-44d0-abf7-9e97e4591e4d" height="300" width="500" />
+  <img src="https://github.com/user-attachments/assets/c710736a-98db-4014-bb9d-d9575c01b0c9" height="300" width="500" />
 </div>
+
+#### video
+
+[![video](https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88)](https://github.com/user-attachments/assets/d59a144c-585b-4cda-bde7-3d4bf6f531c4)
 
