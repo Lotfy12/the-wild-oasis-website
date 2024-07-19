@@ -8,6 +8,8 @@ It is a website that aims to provide a comfortable and easy experience for hotel
 - **Heroicons** for icons
 - **react-day-picker** and **date-fns** libraries for date handling
 - **Supabase** for building the Back End
+- **Next.js** as the React framework
+
 
 ### Features
 - Users can create a single reservation, specify the period, or cancel the reservation if needed.
@@ -15,7 +17,7 @@ It is a website that aims to provide a comfortable and easy experience for hotel
 ### To Install and Run the Project
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Lotfy12/the-wild-oasis-website.git
     ```
 2. Navigate to the project directory:
     ```bash
