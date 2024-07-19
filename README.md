@@ -58,6 +58,12 @@ npm install @supabase/supabase-js
 # or
 yarm add @supabase/supabase-js
 ```
+<div>
+<img src="https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88" height=300 width=500/>
+<img src="https://github.com/user-attachments/assets/b8e14ddc-121c-4b90-94bf-2e5ed207cb7e" height=300 width=500/>
+<img src="https://github.com/user-attachments/assets/dd77182a-2cd7-44d0-abf7-9e97e4591e4d"  height=300  width=500/>
+</div>
+<img src="https://github.com/user-attachments/assets/a2817aca-c3de-48ea-baaa-fbc71ff95e68" />
+/*
 
-<img src="https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88" width=500/>
-
+*/
