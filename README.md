@@ -1,39 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wild Oasis Website
 
-## Getting Started
+## It is a website that aims to provide a comfortable and easy experience for hotel visitors. The site allows visitors to view available cabins, create reservations, modify existing reservations, or cancel reservations.
 
-First, run the development server:
+### Technlogiest
+#### Tailwind Css for styling  ,  heroicons  , react-day-picke , date-fns librarys and supabase for buliding the Back End
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### The user can create a single reservation, specify the period, or even cancel the reservation if he wants
+
+### Versions in the application 
 ```
+#### @heroicons/react@2.1.3
+#### ├── @supabase/supabase-js@2.44.2
+#### ├── date-fns@3.6.0
+#### ├── next-auth@5.0.0-beta.19
+#### ├── next@14.2.4
+#### ├── react-day-picker@8.10.1
+```
+#### To install libraries 
+##### date-fns
+```
+npm install date-fns --save
+# or
+yarn add date-fns
+```
+##### Next Autj
+```
+npm install auth@beta
+yarn add auth@beta
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+##### install NEXT
+```
+npx create-next-app@latest
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-# wild oasis website
-##
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+##### react-day-picker
+```
+npm install react-day-picker date-fns
+# or
+yarn add react-day-picker date-fns 
+```
+#### Supa-base
+```
+npm install @supabase/supabase-js
+# or
+yarm add @supabase/supabase-js
+```
