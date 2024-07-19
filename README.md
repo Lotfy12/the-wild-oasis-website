@@ -59,4 +59,5 @@ npm install @supabase/supabase-js
 yarm add @supabase/supabase-js
 ```
 
+<img src="https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88" width=500/>
 
