@@ -91,8 +91,8 @@ yarn add @supabase/supabase-js
 
 <div>
   <img src="https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88" />
-  <img src="https://github.com/user-attachments/assets/dd77182a-2cd7-44d0-abf7-9e97e4591e4d" height="300" width="350" />
-  <img src="https://github.com/user-attachments/assets/c710736a-98db-4014-bb9d-d9575c01b0c9" height="300" width="350" />
+  <img src="https://github.com/user-attachments/assets/dd77182a-2cd7-44d0-abf7-9e97e4591e4d" height="300" width="400" />
+  <img src="https://github.com/user-attachments/assets/c710736a-98db-4014-bb9d-d9575c01b0c9" height="300" width="400" />
 </div>
 
 #### video
