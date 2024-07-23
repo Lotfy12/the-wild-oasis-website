@@ -1,4 +1,4 @@
-# The-Wild-Oasis-Website
+# The Wild Oasis Website
 
 ## Overview
 It is a website that aims to provide a comfortable and easy experience for hotel visitors. The site allows visitors to view available cabins, create reservations, modify existing reservations, or cancel reservations.
@@ -97,5 +97,6 @@ yarn add @supabase/supabase-js
 
 #### video
 
-[![video](https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88)](https://github.com/user-attachments/assets/d59a144c-585b-4cda-bde7-3d4bf6f531c4)
+[![video](https://github.com/user-attachments/assets/5fa360be-bbd6-44eb-9844-21426c518a88)](https://github.com/user-attachments/assets/21ab1c5b-8fd1-42f7-bd78-3e778a94f308
+)
 
