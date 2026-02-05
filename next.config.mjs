@@ -5,12 +5,9 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "olyffotvdeyjgwsxiqic.supabase.co",
-        port: "",
-        pathname: "/storage/v1/object/public/cabin-images/**",
       },
     ],
   },
-  // output: "export",
 };
 
 export default nextConfig;
