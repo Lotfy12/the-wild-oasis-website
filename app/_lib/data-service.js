@@ -34,16 +34,19 @@ export async function getCabinPrice(id) {
 }
 
 export const getCabins = async function () {
+  console.log("getCabins called - fetching from Supabase...");
   const { data, error } = await supabase
     .from("cabins")
     .select("*")
     .order("name");
 
   if (error) {
-    console.error(error);
+    console.error("Supabase error:", error);
     throw new Error("Cabins could not be loaded");
   }
 
+  console.log("Supabase response - data:", data);
+  console.log("Supabase response - error:", error);
   return data;
 };
 
@@ -86,7 +89,7 @@ export async function getBookings(guestId) {
         numGuests, 
         totalPrice, 
         guestId, 
-        cabinId`
+        cabinId`,
     )
     .eq("guestId", guestId)
     .order("startDate");

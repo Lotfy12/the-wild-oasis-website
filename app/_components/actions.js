@@ -1,9 +1,9 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { supabase } from "../_lib/supabase";
+import { supabase } from "@/app/_lib/supabase";
 import { redirect } from "next/navigation";
-import { auth, signIn, signOut } from "../_lib/auth";
+import { auth, signIn, signOut } from "@/app/_lib/auth";
 
 export async function signInAction() {
   await signIn("google", { redirectTo: "/account" });
