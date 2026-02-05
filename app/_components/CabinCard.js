@@ -14,6 +14,7 @@ function CabinCard({ cabin }) {
           className="object-cover border-r border-primary-800"
           fill
           quality={80}
+          unoptimized
         />
       </div>
 
