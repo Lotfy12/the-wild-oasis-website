@@ -5,11 +5,18 @@ import Link from "next/link";
 function CabinCard({ cabin }) {
   const { id, name, maxCapacity, regularPrice, discount, img } = cabin;
 
+  // OPTIMISTIC FIX: Ensure we are using the correct Supabase URL for images
+  // The database contains URLs pointing to the old project (olyffotvdeyjgwsxiqic) which is deleted.
+  // We replace it with the new active project URL (vzgphlkojwnuthzzrwfw).
+  const displayImg = img
+    ? img.replace("olyffotvdeyjgwsxiqic", "vzgphlkojwnuthzzrwfw")
+    : img;
+
   return (
     <div className="flex border border-primary-800 ">
       <div className="relative flex-1 ">
         <Image
-          src={img}
+          src={displayImg}
           alt={`Cabin ${name}`}
           className="object-cover border-r border-primary-800"
           fill

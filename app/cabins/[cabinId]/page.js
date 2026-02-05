@@ -30,6 +30,15 @@ export async function generateStaticParams() {
 
 const Page = async ({ params }) => {
   const cabin = await getCabin(params.cabinId);
+
+  // OPTIMISTIC FIX: Replace old Supabase URL with new one
+  if (cabin.img) {
+    cabin.img = cabin.img.replace(
+      "olyffotvdeyjgwsxiqic",
+      "vzgphlkojwnuthzzrwfw",
+    );
+  }
+
   const settings = await getSettings();
   const bookedDates = getBookedDatesByCabinId(params.cabinId);
 
