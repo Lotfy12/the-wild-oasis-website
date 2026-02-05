@@ -42,7 +42,7 @@ const Page = async ({ params }) => {
             src={cabin.img}
             alt={`Cabin ${cabin.name}`}
             fill
-            unoptimized
+            
           />
         </div>
 
