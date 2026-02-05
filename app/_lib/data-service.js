@@ -16,6 +16,10 @@ export async function getCabin(id) {
     console.error(error);
   }
 
+  if (data.img) {
+    data.img = data.img.replace("olyffotvdeyjgwsxiqic", "vzgphlkojwnuthzzrwfw");
+  }
+
   return data;
 }
 
@@ -47,7 +51,18 @@ export const getCabins = async function () {
 
   console.log("Supabase response - data:", data);
   console.log("Supabase response - error:", error);
-  return data;
+  // Optimize image URLs for new Supabase project
+  const fixedData = data.map((cabin) => {
+    if (cabin.img) {
+      cabin.img = cabin.img.replace(
+        "olyffotvdeyjgwsxiqic",
+        "vzgphlkojwnuthzzrwfw",
+      );
+    }
+    return cabin;
+  });
+
+  return fixedData;
 };
 
 // Guests are uniquely identified by their email address
