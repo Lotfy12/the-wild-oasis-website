@@ -6,26 +6,26 @@ function CabinCard({ cabin }) {
   const { id, name, maxCapacity, regularPrice, discount, img } = cabin;
 
   return (
-    <div className="flex border border-primary-800 ">
-      <div className="relative flex-1 ">
+    <div className="flex flex-col md:flex-row border border-primary-800 ">
+      <div className="relative w-full h-52 md:h-auto md:flex-1 ">
         <Image
           src={img}
           alt={`Cabin ${name}`}
-          className="object-cover border-r border-primary-800"
+          className="object-cover border-b md:border-b-0 md:border-r border-primary-800"
           fill
           quality={80}
         />
       </div>
 
       <div className="flex-grow">
-        <div className="pt-5 pb-4 px-7 bg-primary-950">
-          <h3 className="mb-3 text-2xl font-semibold text-accent-500">
+        <div className="pt-5 pb-4 px-6 md:px-7 bg-primary-950">
+          <h3 className="mb-2 md:mb-3 text-2xl font-semibold text-accent-500">
             Cabin {name}
           </h3>
 
           <div className="flex items-center gap-3 mb-2">
             <UsersIcon className="w-5 h-5 text-primary-600" />
-            <p className="text-lg text-primary-200">
+            <p className="text-base md:text-lg text-primary-200">
               For up to <span className="font-bold">{maxCapacity}</span> guests
             </p>
           </div>
@@ -50,7 +50,7 @@ function CabinCard({ cabin }) {
         <div className="text-right border-t bg-primary-950 border-t-primary-800">
           <Link
             href={`/cabins/${id}`}
-            className="inline-block px-6 py-4 transition-all border-l border-primary-800 hover:bg-accent-600 hover:text-primary-900"
+            className="block text-center w-full md:inline-block md:w-auto px-6 py-4 transition-all border-l-0 md:border-l border-primary-800 hover:bg-accent-600 hover:text-primary-900"
           >
             Details & reservation &rarr;
           </Link>

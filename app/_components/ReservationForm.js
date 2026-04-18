@@ -32,13 +32,13 @@ function ReservationForm({ cabin }) {
     ? format(new Date(range?.to), "MMM dd yyyy")
     : "  ...";
   return (
-    <div className="scale-[1.01]">
-      <div className="flex items-center justify-between px-16 py-2 bg-primary-800 text-primary-300">
+    <div className="lg:scale-[1.01]">
+      <div className="flex items-center justify-between px-6 lg:px-16 py-2 bg-primary-800 text-primary-300 text-sm md:text-base">
         {formattedFromDate} to {formattedToDate}
       </div>
 
       <form
-        className="flex flex-col gap-5 px-16 py-10 text-lg bg-primary-900"
+        className="flex flex-col gap-5 px-6 lg:px-16 py-8 lg:py-10 text-base md:text-lg bg-primary-900"
         action={createBookingWithDate}
       >
         <div className="space-y-2">
@@ -72,10 +72,10 @@ function ReservationForm({ cabin }) {
           />
         </div>
 
-        <div className="flex items-center justify-end gap-6">
-          <p className="text-base text-primary-300">Start by selecting dates</p>
+        <div className="flex flex-col sm:flex-row items-center justify-end gap-4 sm:gap-6 mt-4">
+          <p className="text-sm sm:text-base text-primary-300">Start by selecting dates</p>
 
-          <button className="px-8 py-4 font-semibold transition-all bg-accent-500 text-primary-800 hover:bg-accent-600 disabled:cursor-not-allowed disabled:bg-gray-500 disabled:text-gray-300">
+          <button className="w-full sm:w-auto px-8 py-4 font-semibold transition-all bg-accent-500 text-primary-800 hover:bg-accent-600 disabled:cursor-not-allowed disabled:bg-gray-500 disabled:text-gray-300">
             Reserve now
           </button>
         </div>
